@@ -67,6 +67,10 @@ header {
 .menucontainer {
     font-size:0;
 }
+/*----- Making that nav grids alligned to the logo picture*/
+#nav{
+    margin: 0;
+}
 
 #nav li {
     font-size: 14px;
@@ -104,3 +108,9 @@ padding: 0;
     letter-spacing: 2px;
 }
 
+/*-----------------------------------------Hover.css */
+
+.hvr-sweep-to-bottom:before {
+   background:rgba(0, 0, 0, 0.2);
+   height:120px;
+    }
